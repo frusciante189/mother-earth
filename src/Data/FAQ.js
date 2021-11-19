@@ -2,7 +2,7 @@ const data = [
   {
     question: "When will minting begin?",
     answer: "The presale begins on December 12th @7PM EST.",
-    anwer2: "Public Launch begins on December 19th @ 12:34PM EST.",
+    answer2: "Public Launch begins on December 19th @ 12:34PM EST.",
   },
   {
     question: "How can I get a Mother Earth NFT?",
