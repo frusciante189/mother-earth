@@ -48,7 +48,7 @@ const Hero = () => {
         </h1>
         <div className="grid grid-cols-4 font-semibold mx-auto bg-primary w-full">
           <div>
-            <div className="flex flex-col justify-center items-center py-4 px-8">
+            <div className="flex flex-col justify-center items-center py-2 px-8">
               <span className="text-4xl">{days}</span>
               <span className="text-sm font-normal text-title uppercase">
                 Days
@@ -56,7 +56,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className="flex flex-col justify-center items-center py-4 px-8">
+            <div className="flex flex-col justify-center items-center py-2 px-8">
               <span className="text-4xl">{hours}</span>
               <span className="text-sm font-normal text-title uppercase">
                 Hours
@@ -64,7 +64,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className="flex flex-col justify-center items-center py-4 px-8">
+            <div className="flex flex-col justify-center items-center py-2 px-8">
               <span className="text-4xl">{minutes}</span>
               <span className="text-sm font-normal text-title uppercase">
                 Minutes
@@ -72,7 +72,7 @@ const Hero = () => {
             </div>
           </div>
           <div>
-            <div className="flex flex-col justify-center items-center py-4 px-8">
+            <div className="flex flex-col justify-center items-center py-2 px-8">
               <span className="text-4xl">{seconds}</span>
               <span className="text-sm font-normal text-title uppercase">
                 Seconds
