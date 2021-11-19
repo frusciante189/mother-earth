@@ -1,14 +1,14 @@
 import React from "react";
-import Pic from "../Assets/about.jpg";
+import Gif from "../Assets/gif.gif";
 
 const Test = () => {
   return (
     <div className="bg-primary">
-      <div className="container mx-auto md:py-16 py-20 px-14">
+      <div className="container mx-auto md:py-16 py-20  lg:px-14 px-5">
         <div className="max-w-5xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
-            <div className="md:flex hidden items-center">
-              <img src={Pic} alt="pic" className="h-full w-full" />
+            <div className="md:flex hidden items-center py-10">
+              <img src={Gif} alt="pic" className="h-full w-full" />
             </div>
             <div className="flex flex-col lg:mt-0 mt-5 ">
               <h1 className="text-white uppercase font-normal">About</h1>

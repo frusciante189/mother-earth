@@ -1,50 +1,42 @@
 import React from "react";
-import DevRoad from "../Assets/img.jpg";
+import People from "../Assets/people.jpg";
 
 const P2P = () => {
   return (
     <div className="bg-secondary">
-      <div className="container mx-auto flex flex-col items-center justify-center px-14">
-        <div className="flex flex-col items-center lg:w-1/2 w-full">
-          <div className="lg:hidden block">
-            <img src={DevRoad} alt="" />
-          </div>
-          <h1 className="text-title uppercase text-center font-semibold text-4xl mt-10 lg:mt-0">
-            Peer to peer learning
-          </h1>
-          <p className="text-white font-semibold uppercase text-3xl mt-2 text-center">
-            By using permaculture and modern methods of managing the land,we
-            hope to rejuvenate and improve it for generations to come.
-          </p>
-        </div>
-        <div className="flex sm:px-5 px-1 lg:py-24 pb-4 lg:flex-row flex-col items-center">
-          <div className="md:max-w-2xl md:w-full w-5/6 mb-10 md:mb-0 mt-10 lg:mt-0 lg:block hidden">
-            <img src={DevRoad} alt="" className="rounded-lg" />
-          </div>
-          <div className="lg:flex-grow md:w-full flex flex-col lg:pl-20 md:pl-16 pl-0 md:items-start md:text-left items-center my-10 lg:mt-0">
-            <div className="flex flex-col items-start text-secondaryText px-4">
-              <div className="w-full">
-                <h1 className="text-title uppercase lg:text-right text-center font-semibold text-4xl">
-                  People empowerment
-                </h1>
-              </div>
-              <div className="lg:mt-8 mt-6">
-                <p className="text-lg text-white text-center">
-                  By Creating a community of people who are a network, not a
-                  place. Joining together permaculture enthusiasts, mentors,
-                  teachers and students to facilitate peer-to-peer learning we
-                  will empower individuals to create ecocentric solutions for
-                  better living on Mother Earth. Members of the community will
-                  have the opportunity to be fully involved in all stages of the
-                  restoration of the land. To maintain a true connection to you,
-                  as a Mother Earth NFT owner, we will be running a YouTube
-                  channel to vlog and document the progress of the project and
-                  how we are restoring and improving the land. We will be
-                  interviewing experts and holding talks about how we can work
-                  together to put back what has been lost and enrich our soil
-                  for future generations.
-                </p>
-              </div>
+      <div className="container mx-auto py-12  lg:px-14 px-5">
+        <div className="max-w-6xl mx-auto flex justify-center">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
+            <div className="md:flex hidden items-center py-10">
+              <img src={People} alt="pic" className="h-full w-full" />
+            </div>
+            <div className="flex flex-col lg:mt-0 mt-5 ">
+              <p className="text-title font-semibold lg:text-4xl text-3xl tracking-tighter mt-1.5">
+                PEOPLE EMPOWERMENT
+              </p>
+              <p className="font-normal text-white mt-3 text-lg">
+                And now the exciting stuff starts to happen.
+              </p>
+              <p className="font-normal text-white mt-3 text-lg">
+                We will find farmland to purchase to begin our quest. We will
+                convert this land into a permaculture farm that will participate
+                in the Australian Government's Soil Carbon Project – a project
+                that has been set up along a similar ethos to ours and will help
+                us to ensure that we are meeting our own carbon positive targets
+                and nurturing the land effectively.
+              </p>
+              <p className="mt-3 font-normal text-white text-lg">
+                We want to create not only a NFT culture that compensates for
+                emissions but a{" "}
+                <span className="font-semibold">safe haven</span> for
+                like-minded people to become a part of. We want to create a
+                Karma Culture. A tangible place where those people invested in
+                our ethos can go, meet and make a difference. We aim to have
+                yearly meet-ups on our land where we can make friends, work the
+                land and bring a holistic expertise approach to improving and
+                rejuvenating our land and eventually bringing back our
+                environment to the Eden it could be again.
+              </p>
             </div>
           </div>
         </div>

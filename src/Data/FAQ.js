@@ -1,8 +1,8 @@
 const data = [
   {
     question: "When will minting begin?",
-    answer: "The presale begins on December 7th @7PM EST.",
-    anwer2: "Public Launch begins on December 12th @ 12:34PM EST.",
+    answer: "The presale begins on December 12th @7PM EST.",
+    anwer2: "Public Launch begins on December 19th @ 12:34PM EST.",
   },
   {
     question: "How can I get a Mother Earth NFT?",
@@ -17,12 +17,12 @@ const data = [
   {
     question: "What will be the price of a Mother Earth NFT?",
     answer:
-      "The pricing model is flat Rate throughout the entire sale. The cost of each Mother Earth NFT is set at 0.11 ETH.",
+      "The pricing model is flat Rate throughout the entire sale. The cost of each Mother Earth NFT is set at 0.1 ETH.",
   },
   {
     question: "How many Mother Earth NFTs will be available?",
     answer:
-      "12,345 Mother Earth NFTs will be minted on the Polygon Chain. This is to reduce the CO2 expense on the planet instead of running the project on the ETH.",
+      "12,345 Mother Earth NFTs will be minted on the Ethereum blockchain.",
   },
   {
     question: "How many Mother Earth NFTs can I purchase in one transaction?",

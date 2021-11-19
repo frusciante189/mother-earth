@@ -1,13 +1,13 @@
 import React from "react";
-import DevRoad from "../Assets/devroad.jpg";
+import DevRoad from "../Assets/img.jpg";
 
 const Development = () => {
   return (
     <div className="bg-secondary">
-      <div className="container mx-auto py-12 px-14">
-        <div className="max-w-5xl mx-auto flex justify-center">
+      <div className="container mx-auto py-12  lg:px-14 px-5">
+        <div className="max-w-6xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
-            <div className="md:flex hidden items-center">
+            <div className="md:flex hidden items-center py-10">
               <img src={DevRoad} alt="pic" className="h-full w-full" />
             </div>
             <div className="flex flex-col lg:mt-0 mt-5 ">

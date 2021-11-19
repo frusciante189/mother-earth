@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from "react";
-import Navbar from "./Navbar";
 import Banner from "../Assets/Banner.JPG";
+
 const Hero = () => {
   const [days, setDays] = useState("00");
   const [hours, setHours] = useState("00");
@@ -10,7 +10,7 @@ const Hero = () => {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("Dec 12, 2021 12:34:00").getTime();
+    const countdownDate = new Date("Dec 19, 2021 12:34:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -40,16 +40,11 @@ const Hero = () => {
     startTimer();
   }, []);
   return (
-    <div className="h-auto relative">
-      <Navbar />
-      <img
-        src={Banner}
-        alt=""
-        className="w-full h-screen mt-[92px] object-cover"
-      />
+    <div className="h-99 relative ">
+      <img src="" className="bg-banner bg-cover bg-top h-full" alt="" />
       <div className="text-white flex flex-col items-center justify-center pt-20 absolute bottom-20 inset-x-0 max-w-[500px] mx-auto">
         <h1 className="text-2xl uppercase font-semibold mt-2 text-white bg-primary text-center w-full">
-          Launching on December 12th
+          Launching on December 19th
         </h1>
         <div className="grid grid-cols-4 font-semibold mx-auto bg-primary w-full">
           <div>

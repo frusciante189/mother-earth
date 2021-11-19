@@ -17,14 +17,9 @@ const data = [
     image: Art2,
   },
   {
-    name: "XXX",
-    title: "Artist",
+    name: "Shakeel Ahamed",
+    title: "NFT Artist",
     image: Art3,
-  },
-  {
-    name: "Mrs Borshtein",
-    title: "Co Founder",
-    image: Art4,
   },
   {
     name: "Python/Java",
@@ -37,8 +32,8 @@ const data = [
     image: Art6,
   },
   {
-    name: "Solidity",
-    title: "Programmer",
+    name: "Influencer",
+    title: "",
     image: Art7,
   },
 ];

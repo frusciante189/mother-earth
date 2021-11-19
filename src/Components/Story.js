@@ -3,7 +3,7 @@ import React from "react";
 const Story = () => {
   return (
     <div className="bg-secondary">
-      <div className="container mx-auto pt-20 pb-24 px-14">
+      <div className="container mx-auto pt-20 pb-24  lg:px-14 px-5">
         <div className="max-w-5xl mx-auto flex">
           <div className="md:w-3/4 w-full mx-auto">
             <h1 className="text-white md:text-4xl text-3xl font-medium uppercase text-center">
@@ -18,7 +18,7 @@ const Story = () => {
               deserves. We love, admire and respect the planet and we want to
               show this through our carbon compensation plan.
             </p>
-            <h1 className="text-title uppercase font-semibold md:text-5xl text-4xl mt-10 text-center">
+            <h1 className="text-title uppercase font-semibold text-2xl mt-10 text-center">
               "I took a walk in the woods and came out taller than the trees” -
               Henry David Thoreau
             </h1>

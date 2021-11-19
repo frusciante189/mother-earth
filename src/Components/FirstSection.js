@@ -1,13 +1,13 @@
 import React from "react";
 import Art1 from "../Assets/Art_1.jpg";
-import Art2 from "../Assets/Art_2.jpg";
-import Art3 from "../Assets/Art_3.jpg";
+import Art2 from "../Assets/30.png";
+import Art3 from "../Assets/9.png";
 import Art4 from "../Assets/Art_4.jpg";
 
 const FirstSection = () => {
   return (
     <div className="bg-primary">
-      <div className="container mx-auto pt-16 pb-12 px-14">
+      <div className="container mx-auto pt-16 pb-12  lg:px-14 px-5">
         <div className="max-w-5xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-12">
             <div className="flex flex-col justify-center items-center">
@@ -17,15 +17,15 @@ const FirstSection = () => {
                 <img src={Art3} alt="" />
                 <img src={Art4} alt="" />
               </div>
-              <h1 className="text-title py-10 text-4xl text-center uppercase font-semibold block lg:hidden">
-                An Exclusive ambitious ever-growing community that want to
-                change the world we living in
+              <h1 className="text-title py-10 text-2xl text-center uppercase font-semibold block lg:hidden">
+                An Exclusive ambitious ever-growing community that wants to
+                change the world we are living in
               </h1>
             </div>
             <div className="lg:flex flex-col justify-center hidden">
-              <h1 className="text-title text-4xl uppercase font-semibold">
-                An Exclusive ambitious ever-growing community that want to
-                change the world we living in
+              <h1 className="text-title text-2xl uppercase font-semibold">
+                An Exclusive ambitious ever-growing community that wants to
+                change the world we are living in
               </h1>
               <p className="font-normal text-white mt-3 text-lg">
                 Our NFTs are not just designed as artwork but as your personal
@@ -43,7 +43,7 @@ const FirstSection = () => {
                 conservation and reforestation.
               </p>
               <p className="font-normal text-white mt-3 text-lg">
-                We will build on this knowledge as we grow as this family based
+                We will build on this knowledge as we grow as this family-based
                 project and demonstrate our core values and mission – to make
                 Mother Earth thrive.
               </p>
@@ -56,7 +56,7 @@ const FirstSection = () => {
         </h1>
       </div>
       <div className="bg-secondary">
-        <div className="container mx-auto py-10 px-14 lg:hidden block">
+        <div className="container mx-auto py-10  lg:px-14 px-5 lg:hidden block">
           <div className="max-w-5xl mx-auto flex justify-center">
             <div className="flex flex-col justify-center">
               <p className="lg:font-normal font-normal text-center text-white mt-5 text-lg">

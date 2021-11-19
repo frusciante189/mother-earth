@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 1024px) {
-  .child div:last-child {
-    grid-column-start: 2;
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.custom {
+  animation: slide 15s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-500px); /* The image width */
   }
 }

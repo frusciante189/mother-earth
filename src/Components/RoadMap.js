@@ -17,9 +17,9 @@ const RoadMap = () => {
           <div className="max-w-3xl mx-auto pt-10 lg:px-0 px-5">
             <div className="flex text-left border-t pt-5 pb-8 border-gray-500">
               <div className="w-1/4">
-                <h1 className="text-gray-300  text-lg">Presale</h1>
+                <h1 className="text-gray-300 text-lg">Presale</h1>
               </div>
-              <p className="w-3/4 text-gray-300  text-lg">
+              <p className="w-3/4 text-gray-300 md:text-lg text-base ml-4 lg:ml-0">
                 We will be giving away some of the 180 Mother Earth NFTs to
                 people who have been an integral part in building our community.
                 Those people who have helped us take our first, powerful strides
@@ -29,10 +29,12 @@ const RoadMap = () => {
             </div>
             <div className="flex text-left border-t pt-5 pb-8 border-gray-500">
               <div className="w-1/4 flex flex-col">
-                <h1 className="text-gray-300 text-lg">Giveaways</h1>
-                <span className="text-3xl text-white font-semibold">25%</span>
+                <h1 className="text-gray-300 text-lg -ml-3">Giveaways</h1>
+                <span className="lg:text-3xl text-3xl text-white font-semibold font-number">
+                  25%
+                </span>
               </div>
-              <p className="w-3/4 text-gray-300 text-lg">
+              <p className="w-3/4 text-gray-300  md:text-lg text-base ml-4 lg:ml-0">
                 Every 1000 primary sales, we will pick 5 random Mother Earth NFT
                 owners and air-drop them 1 NFT
               </p>
@@ -41,29 +43,32 @@ const RoadMap = () => {
               <h1 className="text-gray-300 mb-5 text-lg">Community Action</h1>
               {data.map((item) => {
                 return (
-                  <div className="flex">
+                  <div className="flex whitespace-pre-line">
                     <div className="w-1/4 flex items-center">
-                      <span className="text-white font-bold text-3xl">
+                      <span className="text-white font-bold text-4xl font-number">
                         {item.perc}
                       </span>
                     </div>
                     <div className="w-3/4">
-                      <h1 className="text-white font-semibold text-lg">
+                      <h1 className="text-white font-semibold md:text-lg text-base">
                         {item.title}
                       </h1>
-                      <p className="text-gray-300 text-lg">{item.desc}</p>
+                      <p
+                        dangerouslySetInnerHTML={{ __html: item.desc }}
+                        className="text-gray-300 md:text-lg text-base"
+                      />
                     </div>
                   </div>
                 );
               })}
             </div>
             <div className="flex text-left border-t pt-5 pb-12 border-gray-500">
-              <div className="w-1/4 flex justify-start ">
-                <h1 className="font-bold text-2xl text-white uppercase w-3/4">
+              <div className="w-1/4 flex justify-start -ml-3 ">
+                <h1 className="font-bold md:text-2xl text-lg text-white uppercase w-3/4">
                   After we have sold out
                 </h1>
               </div>
-              <div className="w-3/4">
+              <div className="w-3/4 ml-3">
                 <h1 className="text-white font-semibold text-lg ">
                   Rarity Tools
                 </h1>

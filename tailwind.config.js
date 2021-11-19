@@ -10,8 +10,14 @@ module.exports = {
         title: "#2e9d50",
       },
       height: {
-        99: "calc(100% - 4.75rem)",
+        99: "calc(100vh - 92px)",
         98: "calc(100% - 4rem)",
+      },
+      fontFamily: {
+        number: ["Inconsolata"],
+      },
+      backgroundImage: {
+        banner: "url('./Assets/Banner.JPG')",
       },
     },
   },
