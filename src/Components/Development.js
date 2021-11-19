@@ -13,7 +13,7 @@ const Development = () => {
             <div className="flex flex-col lg:mt-0 mt-5 ">
               <p className="uppercase lg:text-white text-title font-semibold lg:text-4xl text-3xl tracking-tighter mt-1.5">
                 Development Roadmap - <br />
-                <span className="text-title">
+                <span className="text-title text-2xl">
                   This is when the Magic Begins …
                 </span>
               </p>
