@@ -129,7 +129,7 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-              <button className="bg-white text-primary rounded-full px-5 py-2 font-medium hover:bg-opacity-80 hover:text-opacity-80">
+              <button className="bg-gradient-to-l from-[#00655b] to-[#00a231] text-white rounded-full px-5 py-2 font-medium hover:bg-opacity-80 hover:text-opacity-80">
                 Connect Your Wallet
               </button>
             </div>
