@@ -7,8 +7,8 @@ const Development = () => {
       <div className="container mx-auto py-12  lg:px-14 px-5">
         <div className="max-w-6xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
-            <div className="md:flex hidden items-center py-10">
-              <img src={DevRoad} alt="pic" className="h-full w-full" />
+            <div className="md:flex hidden items-center justify-center py-6">
+              <img src={DevRoad} alt="pic" className="h-5/6 w-5/6" />
             </div>
             <div className="flex flex-col lg:mt-0 mt-5 ">
               <p className="uppercase lg:text-white text-title font-semibold lg:text-4xl text-3xl tracking-tighter mt-1.5">
