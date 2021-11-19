@@ -30,7 +30,7 @@ const RoadMap = () => {
             <div className="flex text-left border-t pt-5 pb-8 border-gray-500">
               <div className="w-1/4 flex flex-col">
                 <h1 className="text-gray-300 text-lg -ml-3">Giveaways</h1>
-                <span className="lg:text-3xl text-3xl text-white font-semibold font-number">
+                <span className="text-[45px] text-white font-semibold font-number">
                   25%
                 </span>
               </div>
