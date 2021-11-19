@@ -2,7 +2,7 @@ const data = [
   {
     title: "When 18% of the Mother Earth NFTs sell",
     perc: "18%",
-    desc: "We'll Donate $5,000 ALPS <br/> <a href='https://www.facebook.com/groups/184940090257643''>https://www.facebook.com<br/>/groups/184940090257643</a> ",
+    desc: "We'll Donate $5,000 ALPS <br/> <a class='inline' href='https://www.facebook.com/groups/184940090257643''>https://www.facebook.com/groups/184940090257643</a> ",
   },
   {
     title: "When 55% of the Mother Earth NFTs sell",
