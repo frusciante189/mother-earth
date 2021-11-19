@@ -21,7 +21,7 @@ const Footer = () => {
         </span>
 
         <div className="flex space-x-4 items-center pt-5">
-          <a href="">
+          <a href="https://twitter.com/MotherEarthNFT">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -35,7 +35,7 @@ const Footer = () => {
               />
             </svg>
           </a>
-          <a href="/">
+          <a href="https://discord.io/MotherEarthNFT">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
