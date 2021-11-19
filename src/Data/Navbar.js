@@ -12,6 +12,9 @@ const data = [
     title: "Team",
   },
   {
+title: "RarityTools"
+  },
+  {
     title: "Faq",
   },
 ];
