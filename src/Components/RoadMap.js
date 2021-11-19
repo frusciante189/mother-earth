@@ -60,7 +60,7 @@ const RoadMap = () => {
               })}
             </div>
             <div className="flex text-left border-t pt-5 pb-12 border-gray-500">
-              <div className="w-1/4 flex justify-start -ml-3 ">
+              <div className="w-1/4 flex justify-start -ml-3 md:-ml-0 ">
                 <h1 className="font-bold md:text-2xl text-lg text-white uppercase w-3/4">
                   After we have sold out
                 </h1>
