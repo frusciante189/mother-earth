@@ -29,7 +29,7 @@ const RoadMap = () => {
             </div>
             <div className="flex text-left border-t pt-5 pb-8 border-gray-500">
               <div className="w-1/4 flex flex-col">
-                <h1 className="text-gray-300 text-lg -ml-3">Giveaways</h1>
+                <h1 className="text-gray-300 text-lg -ml-3 md:-ml-0">Giveaways</h1>
               </div>
               <p className="w-3/4 text-gray-300  md:text-lg text-base ml-4 lg:ml-0">
                 Every 1000 primary sales, we will pick 5 random Mother Earth NFT
