@@ -23,7 +23,7 @@ const Navbar = () => {
               className={
                 open
                   ? "flex flex-col pl-6 mt-3 space-y-3 lg:hidden"
-                  : "lg:flex lg:flex-row lg:items-center hidden ml-20"
+                  : "lg:flex lg:flex-row lg:items-center hidden ml-16"
               }
             >
               {data.map((item) => {
