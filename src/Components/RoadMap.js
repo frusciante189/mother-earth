@@ -42,7 +42,7 @@ const RoadMap = () => {
                 return (
                   <div className="flex whitespace-pre-line">
                     <div className="w-1/4 flex items-center">
-                      <span className="text-white font-bold text-[45px] font-number">
+                      <span className="text-white font-bold text-[52px] font-number">
                         {item.perc}
                       </span>
                     </div>
