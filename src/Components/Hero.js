@@ -42,7 +42,7 @@ const Hero = () => {
   return (
     <div className="h-99 relative ">
       <img src="" className="bg-banner bg-cover bg-top h-full" alt="" />
-      <div className="text-white flex flex-col items-center justify-center pt-20 absolute lg:bottom-20 bottom-3 inset-x-0 max-w-[500px] mx-auto">
+      <div className="text-white flex flex-col items-center justify-center pt-20 absolute lg:bottom-14 bottom-3 inset-x-0 max-w-[500px] mx-auto">
         <h1 className="text-2xl uppercase font-semibold mt-2 text-white bg-primary text-center w-full">
           Launching on December 19th
         </h1>
