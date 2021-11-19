@@ -23,7 +23,7 @@ const Test = () => {
                 extraordinary creations created on the Ethereum blockchain as
                 ERC-721 token and hosted on IPFS. <br />
                 <span className="font-semibold">
-                  Dropping December 12TH 2021
+                  Dropping December 19TH 2021
                 </span>
               </p>
               <p className="mt-3 font-normal text-white text-lg">
