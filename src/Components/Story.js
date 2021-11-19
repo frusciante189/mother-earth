@@ -3,7 +3,12 @@ import React from "react";
 const Story = () => {
   return (
     <div className="bg-secondary">
-      <div className="container mx-auto pt-20 pb-24  lg:px-14 px-5">
+           <div className="container mx-auto pt-12 pb-24  lg:px-14 px-5">
+        <div className="flex items-center justify-center py-4">
+          <button className="bg-gradient-to-l from-[#00655b] to-[#00a231] text-white rounded-full px-5 py-2 font-medium hover:bg-opacity-80 hover:text-opacity-80">
+            Mint
+          </button>
+        </div>
         <div className="max-w-5xl mx-auto flex">
           <div className="md:w-3/4 w-full mx-auto">
             <h1 className="text-white md:text-4xl text-3xl font-medium uppercase text-center">
