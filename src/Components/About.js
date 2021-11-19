@@ -8,7 +8,7 @@ const Test = () => {
         <div className="max-w-5xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
             <div className="md:flex hidden items-center py-10">
-              <img src={Gif} alt="pic" className="h-full w-full" />
+              <img src={Gif} alt="pic" className="h-full w-full rounded-lg" />
             </div>
             <div className="flex flex-col lg:mt-0 mt-5 ">
               <h1 className="text-white uppercase font-normal">About</h1>
