@@ -40,8 +40,9 @@ const FAQ = () => {
                       leaveFrom="transform scale-100 opacity-100"
                       leaveTo="transform scale-95 opacity-0"
                     >
-                      <Disclosure.Panel className="md:text-lg text-sm text-gray-300 mt-6">
-                        {item.answer}
+                      <Disclosure.Panel className="md:text-lg text-sm text-gray-300 mt-6 flex flex-col space-y-2">
+                        <span>{item.answer}</span>
+                        <span>{item.answer2}</span>
                       </Disclosure.Panel>
                     </Transition>
                   </div>
