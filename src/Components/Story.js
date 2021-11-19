@@ -4,8 +4,8 @@ const Story = () => {
   return (
     <div className="bg-secondary">
            <div className="container mx-auto pt-12 pb-24  lg:px-14 px-5">
-        <div className="flex items-center justify-center py-4">
-          <button className="bg-gradient-to-l from-[#00655b] to-[#00a231] text-white rounded-full px-8 py-2 font-medium hover:bg-opacity-80 hover:text-opacity-80 font-medium uppercase text-lg">
+        <div className="flex items-center justify-center pb-20 pt-10">
+          <button className="bg-gradient-to-l from-[#00655b] to-[#00a231] text-white rounded-lg px-24 py-8 font-medium hover:bg-opacity-80 hover:text-opacity-80 uppercase text-4xl">
             Mint
           </button>
         </div>
