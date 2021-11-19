@@ -46,7 +46,7 @@ const Navbar = () => {
             }
           >
             <div className="flex space-x-4 items-center">
-              <a href="">
+              <a href="https://twitter.com/MotherEarthNFT">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -60,7 +60,7 @@ const Navbar = () => {
                   />
                 </svg>
               </a>
-              <a href="/">
+              <a href="https://discord.io/MotherEarthNFT">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
