@@ -3,7 +3,7 @@ import React from "react";
 const Story = () => {
   return (
     <div className="bg-secondary">
-           <div className="container mx-auto pt-7 pb-24  lg:px-14 px-5">
+           <div className="container mx-auto pt-3 pb-24  lg:px-14 px-5">
         <div className="flex items-center justify-center pb-20">
           <button className="bg-gradient-to-l from-[#00655b] to-[#00a231] text-white rounded-lg px-24 py-4 font-medium hover:bg-opacity-80 hover:text-opacity-80 uppercase text-4xl">
             Mint
