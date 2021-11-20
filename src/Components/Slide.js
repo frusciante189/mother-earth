@@ -15,7 +15,7 @@ import Image81 from "../Assets/63.png";
 import Art1 from "../Assets/rArt1.jpg";
 import Art2 from "../Assets/Art_2.jpg";
 import Art3 from "../Assets/Art_3.jpg";
-import Art4 from "../Assets/rArt4.jpg";
+import Art4 from "../Assets/Art_4.jpg";
 import Art5 from "../Assets/Art_5.jpg";
 import Art6 from "../Assets/Art_6.jpg";
 import Art7 from "../Assets/Art_7.jpg";
