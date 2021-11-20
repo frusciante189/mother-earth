@@ -8,7 +8,7 @@ const P2P = () => {
         <div className="max-w-6xl mx-auto flex justify-center">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-x-10">
             <div className="md:flex hidden items-center justify-center py-10">
-              <img src={People} alt="pic" className="md:h-[430px] w-full md:w-[450px] h-full rounded-lg" />
+              <img src={People} alt="pic" className="md:h-[350px] w-full md:w-[450px] h-full rounded-lg mt-10" />
             </div>
             <div className="flex flex-col lg:mt-0 mt-5 ">
               <p className="text-title font-semibold lg:text-4xl text-3xl tracking-tighter mt-1.5">
